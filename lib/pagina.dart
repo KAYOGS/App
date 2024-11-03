@@ -31,12 +31,23 @@ class __appRunState extends State<appRun> {
             width: 800.0,
             height: 600.0,
             color: Colors.white,
-            child: Text(
-              'Home',
-              style: TextStyle(
-                fontSize: 30.0,
-                color: Colors.black
-              ),
+            child: Column(
+              children: [
+                Text(
+                  'Home',
+                  style: TextStyle(
+                    fontSize: 30.0,
+                    color: Colors.black
+                  ),
+                ),
+                Text(
+                  'TasK',
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 18.0
+                  ),
+                )
+              ]
             ),
           ),
         ),
